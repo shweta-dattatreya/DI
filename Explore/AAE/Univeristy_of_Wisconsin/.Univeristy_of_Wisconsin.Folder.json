@@ -1,0 +1,22 @@
+{
+  "objectInfo" : {
+    "id" : "6ywcT5w4NBfbcItytlnVsO",
+    "name" : "Univeristy_of_Wisconsin",
+    "type" : "Folder",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "objectRefs" : [ ]
+}

@@ -1,0 +1,23 @@
+{
+  "objectInfo" : {
+    "id" : "8JOCzehfHGWgHcNwFZV2CB",
+    "name" : "REST",
+    "type" : "Project",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2023-08-29T22:13:50.366Z",
+  "objectRefs" : [ ]
+}

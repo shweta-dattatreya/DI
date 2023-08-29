@@ -17,12 +17,13 @@
       } ],
       "additionalInfo" : {
         "description" : "",
-        "contentType" : null,
+        "contentType" : "JSON",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "zip",
+  "updateTime" : "2023-08-29T21:58:05.077Z",
   "objectRefs" : [ {
     "id" : "7igy7bmHJyEivl59eMQk62",
     "name" : "SD_S3_V2_new",

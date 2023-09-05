@@ -1,0 +1,65 @@
+{
+  "objectInfo" : {
+    "id" : "7oBWD2bbf5Fd59loKFKqY2",
+    "name" : "TF_DS",
+    "type" : "TASKFLOW",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "59XW1830nYNmumf-gt-112913256-2023-09-05T22:40:33.916Z::tf.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "updateTime" : "2023-09-05T22:47:13.750Z",
+  "objectRefs" : [ {
+    "id" : "8EayTA6g3sPcqNx92E3tch",
+    "name" : "MT_FF_FF",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0100210Z00000000032C"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/AAE/Dndson"
+  }, {
+    "id" : "4giuQmmfmwqeze4jngXPka",
+    "name" : "MT_S3_Redshift",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0100210Z00000000032D"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/AAE/Dndson"
+  } ]
+}

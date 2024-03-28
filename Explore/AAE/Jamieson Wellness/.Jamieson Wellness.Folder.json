@@ -1,0 +1,23 @@
+{
+  "objectInfo" : {
+    "id" : "0eot12JEZBflzF6u5KVlqO",
+    "name" : "Jamieson Wellness",
+    "type" : "Folder",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-03-28T17:11:45.608Z",
+  "objectRefs" : [ ]
+}

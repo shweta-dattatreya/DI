@@ -1,0 +1,65 @@
+{
+  "objectInfo" : {
+    "id" : "5Zu2S4vsM7Zer3G2uhNNei",
+    "name" : "Charles_Schwab_taskflow",
+    "type" : "TASKFLOW",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "8qUlLnzYLnzYLnz-gt-133660502-2023-11-08T04:34:28.955Z::tf.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "updateTime" : "2024-09-07T18:50:37.838Z",
+  "objectRefs" : [ {
+    "id" : "6Xy1lqFwrAmdWgSvRdWG0H",
+    "name" : "MappingTask_first",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0100210Z00000000034W"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/AAE/Charles_Schwab"
+  }, {
+    "id" : "8adLFrztxUefNkzPisyM6B",
+    "name" : "MappingTask_second",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0100210Z00000000034X"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "CS Demo",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/AAE/Charles_Schwab"
+  } ]
+}

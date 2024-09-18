@@ -23,7 +23,7 @@
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2023-11-08T19:45:45.231Z",
+  "updateTime" : "2024-09-18T20:04:24.349Z",
   "objectRefs" : [ {
     "id" : "4XEK4rV72TogF122DwLFqY",
     "name" : "SD_FF_LIN",
@@ -58,7 +58,7 @@
       },
       "contextAttributes" : null,
       "additionalInfo" : {
-        "description" : "",
+        "description" : "demo",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }

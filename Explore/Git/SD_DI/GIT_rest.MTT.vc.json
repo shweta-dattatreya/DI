@@ -3,7 +3,7 @@
   "runtimeEnvironmentId" : "@165jpQBwWeSjXM7D9uN124",
   "runtimeEnvironmentName" : "AS_SD_Linux01",
   "maxLogs" : 10,
-  "verbose" : false,
+  "verbose" : true,
   "lastRunTime" : 1658351995000,
   "mappingId" : "@62HQY1ehLkGiO9K6pzjjss",
   "mappingTemplateName" : "GIT_rest",
@@ -126,6 +126,14 @@
       "truncateTarget" : false,
       "bulkApiDBTarget" : false,
       "operationType" : "Insert",
+      "tgtFFAttrs" : {
+        "delimiter" : ",",
+        "textQualifier" : "\"",
+        "headerLineNo" : 1,
+        "rowDelimiter" : 1,
+        "consecutiveDelimiter" : false,
+        "multiDelimitersAsAnd" : true
+      },
       "customFuncCfg" : { },
       "extendedObject" : {
         "singleMode" : true
@@ -153,5 +161,5 @@
       }
     }
   ],
-  "vcsExportTime" : "2024-12-06 08:05:59 PST"
+  "vcsExportTime" : "2024-12-06 08:08:08 PST"
 }

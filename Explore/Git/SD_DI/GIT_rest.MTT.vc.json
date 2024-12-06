@@ -1,0 +1,157 @@
+{
+  "name" : "GIT_rest",
+  "runtimeEnvironmentId" : "@165jpQBwWeSjXM7D9uN124",
+  "runtimeEnvironmentName" : "AS_SD_Linux01",
+  "maxLogs" : 10,
+  "verbose" : false,
+  "lastRunTime" : 1658351995000,
+  "mappingId" : "@62HQY1ehLkGiO9K6pzjjss",
+  "mappingTemplateName" : "GIT_rest",
+  "frsGuid" : "8yqY3zOIkcUguMWRk1nQIp",
+  "sessionPropertiesList" : [
+    {
+      "name" : "Pushdown Optimization",
+      "value" : "None"
+    },
+    {
+      "name" : "Pushdown Optimization Context",
+      "value" : "None"
+    },
+    {
+      "name" : "Pushdown Optimization Fallback Option",
+      "value" : "Partial PDO"
+    }
+  ],
+  "hidden" : false,
+  "enableCrossSchemaPushdown" : true,
+  "enableParallelRun" : false,
+  "autoTunedApplied" : false,
+  "autoTunedAppliedType" : "NONE",
+  "paramFileType" : "PARAM_FILE_LOCAL",
+  "schemaMode" : "async",
+  "valid" : true,
+  "parameterFileEncoding" : "UTF-8",
+  "optimizationPlan" : "NONE",
+  "isMidstreamPreview" : false,
+  "parameters" : [
+    {
+      "name" : "$Source$",
+      "type" : "EXTENDED_SOURCE",
+      "label" : "NewParameter",
+      "uiProperties" : {
+        "cnxtype" : "CSVFile",
+        "connectionParameterized" : "true",
+        "paramName" : "NewParameter",
+        "paramType-mapping" : "Connection",
+        "logcnx" : "NewParameter",
+        "isSelectDistinct" : "false",
+        "isMsrcFilterParameterized" : "false",
+        "isMsrcSortParameterized" : "false",
+        "objlabel" : "NewParameter1",
+        "objectParameterized" : "true",
+        "objectParamName" : "NewParameter1",
+        "objectParamType-mapping" : "DataObject",
+        "originalPath" : "Source"
+      },
+      "sourceConnectionId" : "@4XEK4rV72TogF122DwLFqY",
+      "connectionName" : "SD_FF_LIN",
+      "newFlatFile" : false,
+      "newObject" : false,
+      "showBusinessNames" : true,
+      "naturalOrder" : true,
+      "truncateTarget" : false,
+      "bulkApiDBTarget" : false,
+      "customFuncCfg" : { },
+      "extendedObject" : {
+        "object" : {
+          "name" : "source2.csv",
+          "label" : "source2.csv",
+          "metadataUpdated" : false
+        },
+        "singleMode" : true,
+        "objects" : [
+          {
+            "name" : "source2.csv",
+            "label" : "source2.csv",
+            "metadataUpdated" : false
+          }
+        ]
+      },
+      "isRESTModernSource" : true,
+      "isFileList" : false,
+      "handleSpecialChars" : false,
+      "handleDecimalRoundOff" : false,
+      "frsAsset" : false,
+      "dynamicFileName" : false,
+      "excludeDynamicFileNameField" : false,
+      "currentlyProcessedFileName" : false,
+      "retainFieldMetadata" : false,
+      "useExactSrcNames" : false,
+      "userUpdated" : true,
+      "fetchMode" : "ORIGINAL",
+      "runtimeParameterData" : {
+        "isConnectionRuntimeParameter" : true,
+        "isObjectRuntimeParameter" : true,
+        "connectionParameterName" : "NewParameter",
+        "objectParameterName" : "NewParameter1",
+        "objectDefaultValue" : "source2.csv"
+      }
+    },
+    {
+      "name" : "$Target$",
+      "type" : "TARGET",
+      "label" : "NewParameter2",
+      "uiProperties" : {
+        "cnxtype" : "CSVFile",
+        "connectionParameterized" : "true",
+        "paramName" : "NewParameter2",
+        "paramType-mapping" : "Connection",
+        "logcnx" : "NewParameter2",
+        "objlabel" : "NewParameter3",
+        "objectParameterized" : "true",
+        "objectParamName" : "NewParameter3",
+        "objectParamType-mapping" : "DataObject",
+        "noCreateTarget" : "true",
+        "supportApplyDDLChanges" : "false",
+        "originalPath" : "Target"
+      },
+      "targetConnectionId" : "@e6d3Fff3OclcYETMruiOqm",
+      "connectionName" : "SD_Lin_FF",
+      "targetObject" : "target1.csv",
+      "targetObjectLabel" : "target1.csv",
+      "newFlatFile" : false,
+      "newObject" : false,
+      "showBusinessNames" : true,
+      "naturalOrder" : true,
+      "truncateTarget" : false,
+      "bulkApiDBTarget" : false,
+      "operationType" : "Insert",
+      "customFuncCfg" : { },
+      "extendedObject" : {
+        "singleMode" : true
+      },
+      "isRESTModernSource" : true,
+      "isFileList" : false,
+      "handleSpecialChars" : false,
+      "handleDecimalRoundOff" : false,
+      "frsAsset" : false,
+      "dynamicFileName" : false,
+      "excludeDynamicFileNameField" : false,
+      "currentlyProcessedFileName" : false,
+      "retainFieldMetadata" : false,
+      "objectName" : "target1.csv",
+      "objectLabel" : "target1.csv",
+      "useExactSrcNames" : false,
+      "userUpdated" : true,
+      "fetchMode" : "ORIGINAL",
+      "runtimeParameterData" : {
+        "isConnectionRuntimeParameter" : true,
+        "isObjectRuntimeParameter" : true,
+        "connectionParameterName" : "NewParameter2",
+        "objectParameterName" : "NewParameter3",
+        "objectDefaultValue" : "target1.csv"
+      }
+    }
+  ],
+  "vcsExportTime" : "2024-12-06 08:05:59 PST"
+}
